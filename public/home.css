@@ -1,0 +1,39 @@
+body {
+    background-color: #F3E0B5;
+}
+
+.con {
+    color: #472D2D;
+    background-color: #FFAE6D;
+    height: 100px;
+    padding-left: 20px;
+    margin:5px
+   
+}
+.buttons {
+    text-align: right;
+    margin: 0px;
+    padding: 5px;
+}
+.btn-1 {
+    margin: 5px;
+    padding: 10px;
+
+}
+.btn-2 {
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.images {
+    animation: move 1s ease-in-out 0.5s 2 alternate;
+    -moz-animation: move 1s ease-in-out 0.5s 2 alternate;
+    -webkit-animation: move 1s ease-in-out 0.5s 2 alternate;
+ }
+
+ @keyframes move {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(100px); }
+ }

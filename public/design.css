@@ -1,0 +1,23 @@
+body {
+    background-color: #F3E0B5;
+}
+
+.img {
+    display: inline-block;
+}
+
+
+nav {
+    background-color: #472D2D;
+    width: 100%;
+    height: 50px;
+    overflow: auto;
+    font-size: 20px;
+}
+
+a {
+    color:#F3E0B5;
+    text-decoration: none;
+    float: left;
+    width: 50%;
+}
